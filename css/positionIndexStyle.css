@@ -1,0 +1,89 @@
+/*中部样式*/
+
+/*搜索框样式*/
+.searchFor .input-group {
+	margin-top: 12px;
+}
+
+.searchFor .input-group input{
+	width: 217px;
+	height: 28px;
+}
+/*职位推荐*/
+.jobRecom{
+    display: inline-block;
+    width: 97%;
+    height: 100%;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+.jobwrap{
+	margin-bottom: 35px;
+}
+
+.jobThings{
+	width:100%;
+	height:116px;
+	border: 1px solid rgba(174, 174, 174, 0.35);
+	box-shadow: 1px 1px 3px rgba(174, 174, 174, 0.35);
+	padding-left: 13px;
+}
+.jobThings p,.jobThings span,.jobRequire p,.jobRequire span{
+	color: black
+}
+.jobThings .thing1{
+	width:320px;
+	height:46px;
+}
+.jobThings .thing1 .jobMoney {
+	margin-top: 12px;
+}
+.jobThings .thing1 .jobMoney .post,.jobRequire span{
+	font-weight: bold;
+	font-size: 14px;	
+}
+.jobRequire .descri{
+	font-weight: normal;
+}
+.jobThings .thing1 .status{
+	position: relative;
+	left: 244px;
+	top: -30px;
+	width: 40px;
+	height: 20px;
+	border: 1px solid #2840e8;
+	color: #2840e8;
+	font-size: 12px;
+	text-align: center;
+    line-height: 19px;		
+}
+.jobThings .thing1 .status img{
+	width: 100%;
+	height: 100%;
+}
+
+.jobThings .thing2 .reledata{
+	color: #2840e8;
+	margin-top: 14px;
+	margin-right: 10px;
+}
+.jobThings .thing2 .reledata span{
+	color: #2840e8;
+}
+.jobRequire{
+	width: 100%;
+	height: 34px;
+	margin-top: -60px;
+	margin-left: 13px;
+}
+.jobRequire p{
+	width: 98%;
+	line-height: 22px;
+}
+.bigBang{
+	background-color: #fff;
+	width: 100%;
+	border: 1px solid rgba(174, 174, 174, 0.35);
+	box-shadow: 1px 1px 3px rgba(174, 174, 174, 0.35);
+	padding-bottom: 70px;
+}

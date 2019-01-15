@@ -1,0 +1,239 @@
+/*公共样式*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float:right;
+}
+
+li{
+    list-style-type:none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    font-size:0;
+}
+
+/*导航条*/
+nav{
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 94%;
+    margin: 0 3%;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(174, 174, 174, 0.35);
+    margin-bottom: 10px;
+}
+
+nav > a{
+    font-size: 18px;
+    color: #003138;
+}
+
+nav > li.dropdown a{
+    font-size: 12px;
+}
+
+nav > *{
+    margin: 0 10px;
+    background-color: white !important;
+}
+
+/*主体*/
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3%;
+}
+
+#container > *{
+     box-shadow: 1px 1px -1px rgba(174, 174, 174, 0.35); 
+}
+/*左侧小菜单*/
+#menu{
+    position: fixed;
+    left: 3%;
+    top: 60px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu > ul li{
+    box-shadow: 1px 1px 1px rgba(174, 174, 174, 0.35);
+}
+
+#menu li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+    width: 50px;
+    height: 40px;
+    background-color: white;
+}
+
+#menu li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+}
+#menu li a > *{
+    margin: 0 3px;
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+#menu li.selected{
+    background-color: #4A90E2;
+}
+
+#menu li.selected > a{
+    color: white
+}
+
+/*左侧大菜单*/
+#bigmenu{
+    left: 106px;
+    top: 60px;
+    width: 165px;
+    height: 268px;
+    border: 1px solid rgba(174, 174, 174, 0.35);
+}
+
+#bigmenu > ul{
+    position: relative;
+    width: 165px;
+    height: 268px;
+}
+
+#bigmenu > ul li{
+    box-shadow: 1px 1px 1px rgba(174, 174, 174, 0.35);
+}
+
+#bigmenu li{
+    border-bottom: none;
+    height: 45px;
+    background-color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#bigmenu li a{
+    display: inline-block;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#bigmenu li a span{
+    display: inline-block;
+    width: 112px;
+    text-align: left;
+}
+#bigmenu li a > *{
+    margin: 0 3px;
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+
+#bigmenu li.selected > a{
+    color: #2840e8;
+}
+#bigmenu li:first-child{
+    border-bottom: 1px solid rgba(174, 174, 174, 0.35);
+}
+#bigmenu li:first-child a{
+    color:#5f5f5f;
+    font-weight: bold;
+}
+
+#bigmenu ul li img{
+    width: 14px;
+    height: 17px;
+}
+
+#bigmenu ul li .iconLock{
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+
+/*左侧主体头部样式*/
+#content {
+    margin-top: 60px;
+    margin-left: 50px;
+    flex: 2 2 auto;
+    background-color: white;
+}
+
+#content .container-fluid {
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    margin:0;
+    background-color: #FAFAFA;
+}
+
+#content .container-fluid > * {
+    margin-left: 15px;
+}
+
+.container-fluid > .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-fluid > .title > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title {
+    padding-top: 10px;
+    margin-left: 13px;
+}
+
+.title .positionTitle{
+    font-weight: bold;
+    color:#5f5f5f;
+}
+
+#content .line{
+    width: 100%;
+    height: 2px;
+    background-color: #e1e1e1;
+    margin-top: 13px;
+}

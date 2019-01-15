@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>职位页</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalstyle.css">
+    <link rel="stylesheet" href="css/positionPublicStyle.css">
+    <link rel="stylesheet" href="css/positionIndexStyle.css">
+<body>
+<!--导航条开始-->
+<nav>
+    <a href="/">及目招聘</a>
+    <li class="dropdown">
+        <a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true"
+           aria-expanded="false">欢迎您，<span>然诺科技</span><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="/signin">退出登录</a></li>
+        </ul>
+    </li>
+</nav>
+<!--导航条结束-->
+<!--左侧菜单开始-->
+<div id="container">
+    <!--小菜单开始-->
+    <div id="menu">
+        <ul>
+            <li role="presentation" value="list">
+                <a href="#">
+                    <span>List</span>
+                </a>
+            </li>
+            <li role="presentation" value="personnel">
+                <a href="#">
+                    <span>人才</span>
+                </a>
+            </li>
+            <li role="presentation" value="company">
+                <a href="#">
+                    <span>公司</span>
+                </a>
+            </li>
+            <li role="presentation" value="position" class="selected">
+                <a href="#">
+                    <span>职位</span>
+                </a>
+            </li>
+            <li role="presentation" value="HR">
+                <a href="#">
+                    <span>HR</span>
+                </a>
+            </li>
+            <li role="presentation" value="activity">
+                <a href="#">
+                    <span>活动</span>
+                </a>
+            </li>
+            <li role="presentation" value="consult">
+                <a href="#">
+                    <span>咨询</span>
+                </a>
+            </li>
+            <li role="presentation" value="stack">
+                <a href="#">
+                    <span>顾问</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+<!--小菜单结束-->
+
+ <!--中部开始-->
+  <div id="content">
+      <div class="container-fluid" style="display: flex; flex-direction: row; height:auto;">
+    	<!--大菜单开始-->
+         <div id="bigmenu">
+              <ul>
+                  <li role="presentation" value="list">
+                      <a href="#">
+                          <span>所有来源</span>
+                      </a>
+                  </li>
+                  <li role="presentation" value="personnel" class="selected">
+                      <a href="#">
+                          <span>然诺科技集团</span>
+                      </a>
+                      <span class="iconLock" style="color: gray">7</span>
+                  </li>
+                  <li role="presentation" value="activity">
+                      <a href="#">
+                          <span>河北秦皇岛产业园</span>
+                      </a>
+                      <span class="iconLock"><img src="img/lock.png" alt=""></span>
+                  </li>
+                  <li role="presentation" value="activity">
+                      <a href="#">
+                          <span>Tina的大客户职位</span>
+                      </a>
+                      <span class="iconLock"><img src="img/lock.png" alt=""></span>
+                  </li>
+                  <li role="presentation" value="member">
+                      <a href="#">
+                          <span>河南信阳产业园</span>
+                      </a>
+                      <span class="iconLock"><img src="img/lock.png" alt=""></span>
+                  </li>
+                  <li role="presentation" value="member">
+                      <a href="#">
+                          <span>Grace的所有职位</span>
+                      </a>
+                      <span class="iconLock"><img src="img/lock.png" alt=""></span>
+                  </li>
+                  <li role="presentation" value="stack">
+                      <a href="#">
+                          <span>软件协会企业群</span>
+                      </a>
+                      <span class="iconLock"><img src="img/lock.png" alt=""></span>
+                  </li>
+                  <li role="presentation" value="stack">
+                      <a href="#">
+                          <span>光电子产业园</span>
+                      </a>
+                      <span class="iconLock"><img src="img/lock.png" alt=""></span>
+                  </li>
+
+              </ul>
+          </div>
+
+<!--职位大板块-->
+    <div class="bigBang">
+        <div class="title">
+            <span class="positionTitle">然诺科技集团</span>
+        </div>
+    
+    <div class="line"></div>
+
+    <!--搜索框-->
+    <div class="searchFor col-sm-4">
+        <div class="input-group">
+            <input type="text" class="form-control" onkeydown="onKeyDown(event)" placeholder="输入职位名称后回车搜索"/>
+        </div>
+    </div>
+    <!--职位推荐-->
+    <div class="jobRecom ">
+        <div class="jobwrap">
+            <div class="clearfix">
+                <div class="jobThings">
+                    <div class="thing1 fl">
+                        <p class="jobMoney"><span class="post">高级Java工程师</span>&nbsp;/&nbsp;<span class="money">12K~20K</span>&nbsp;/&nbsp;<span class="depart">然诺科技</span></p>
+                        <div class="status">招聘中</div>
+                    </div>
+                    <div class="thing2 fr">
+                        <div class="reledata">发布112天：12简历-7人选-2面试-1offer-1入职</div>
+                    </div>
+                </div>
+                <div class="jobRequire">
+                    <p><span>岗位要求：</span><span class="descri">1)&nbsp;本科以上学历，3年以上java开发经验；2)&nbsp;有HRSaaS相关开发经验最佳；3)&nbsp;更多要求更多要求更多要求更多要求；4)&nbsp;更多要求更多要求更多要求更多要求;5)&nbsp;更多要求更多要求更多要求更多要求;</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="jobwrap">
+            <div class="clearfix">
+                <div class="jobThings">
+                    <div class="thing1 fl">
+                        <p class="jobMoney"><span class="post">高级Java工程师</span>&nbsp;/&nbsp;<span class="money">12K~20K</span>&nbsp;/&nbsp;<span class="depart">然诺科技</span></p>
+                        <div class="status">招聘中</div>
+                    </div>
+                    <div class="thing2 fr">
+                        <div class="reledata">发布112天：12简历-7人选-2面试-1offer-1入职</div>
+                    </div>
+                </div>
+                <div class="jobRequire">
+                    <p><span>岗位要求：</span><span class="descri">1)&nbsp;本科以上学历，3年以上java开发经验；2)&nbsp;有HRSaaS相关开发经验最佳；3)&nbsp;更多要求更多要求更多要求更多要求；4)&nbsp;更多要求更多要求更多要求更多要求;5)&nbsp;更多要求更多要求更多要求更多要求;</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="jobwrap">
+            <div class="clearfix">
+                <div class="jobThings">
+                    <div class="thing1 fl">
+                        <p class="jobMoney"><span class="post">高级Java工程师</span>&nbsp;/&nbsp;<span class="money">12K~20K</span>&nbsp;/&nbsp;<span class="depart">然诺科技</span></p>
+                        <div class="status">招聘中</div>
+                    </div>
+                    <div class="thing2 fr">
+                        <div class="reledata">发布112天：12简历-7人选-2面试-1offer-1入职</div>
+                    </div>
+                </div>
+                <div class="jobRequire">
+                    <p><span>岗位要求：</span><span class="descri">1)&nbsp;本科以上学历，3年以上java开发经验；2)&nbsp;有HRSaaS相关开发经验最佳；3)&nbsp;更多要求更多要求更多要求更多要求；4)&nbsp;更多要求更多要求更多要求更多要求;5)&nbsp;更多要求更多要求更多要求更多要求;</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="jobwrap">
+            <div class="clearfix">
+                <div class="jobThings">
+                    <div class="thing1 fl">
+                        <p class="jobMoney"><span class="post">高级Java工程师</span>&nbsp;/&nbsp;<span class="money">12K~20K</span>&nbsp;/&nbsp;<span class="depart">然诺科技</span></p>
+                        <div class="status">招聘中</div>
+                    </div>
+                    <div class="thing2 fr">
+                        <div class="reledata">发布112天：12简历-7人选-2面试-1offer-1入职</div>
+                    </div>
+                </div>
+                <div class="jobRequire">
+                    <p><span>岗位要求：</span><span class="descri">1)&nbsp;本科以上学历，3年以上java开发经验；2)&nbsp;有HRSaaS相关开发经验最佳；3)&nbsp;更多要求更多要求更多要求更多要求；4)&nbsp;更多要求更多要求更多要求更多要求;5)&nbsp;更多要求更多要求更多要求更多要求;</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="jobwrap">
+            <div class="clearfix">
+                <div class="jobThings">
+                    <div class="thing1 fl">
+                        <p class="jobMoney"><span class="post">高级Java工程师</span>&nbsp;/&nbsp;<span class="money">12K~20K</span>&nbsp;/&nbsp;<span class="depart">然诺科技</span></p>
+                        <div class="status">招聘中</div>
+                    </div>
+                    <div class="thing2 fr">
+                        <div class="reledata">发布112天：12简历-7人选-2面试-1offer-1入职</div>
+                    </div>
+                </div>
+                <div class="jobRequire">
+                    <p><span>岗位要求：</span><span class="descri">1)&nbsp;本科以上学历，3年以上java开发经验；2)&nbsp;有HRSaaS相关开发经验最佳；3)&nbsp;更多要求更多要求更多要求更多要求；4)&nbsp;更多要求更多要求更多要求更多要求;5)&nbsp;更多要求更多要求更多要求更多要求;</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="jobwrap">
+            <div class="clearfix">
+                <div class="jobThings">
+                    <div class="thing1 fl">
+                        <p class="jobMoney"><span class="post">高级Java工程师</span>&nbsp;/&nbsp;<span class="money">12K~20K</span>&nbsp;/&nbsp;<span class="depart">然诺科技</span></p>
+                        <div class="status">招聘中</div>
+                    </div>
+                    <div class="thing2 fr">
+                        <div class="reledata">发布112天：12简历-7人选-2面试-1offer-1入职</div>
+                    </div>
+                </div>
+                <div class="jobRequire">
+                    <p><span>岗位要求：</span><span class="descri">1)&nbsp;本科以上学历，3年以上java开发经验；2)&nbsp;有HRSaaS相关开发经验最佳；3)&nbsp;更多要求更多要求更多要求更多要求；4)&nbsp;更多要求更多要求更多要求更多要求;5)&nbsp;更多要求更多要求更多要求更多要求;</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="jobwrap">
+            <div class="clearfix">
+                <div class="jobThings">
+                    <div class="thing1 fl">
+                        <p class="jobMoney"><span class="post">高级Java工程师</span>&nbsp;/&nbsp;<span class="money">12K~20K</span>&nbsp;/&nbsp;<span class="depart">然诺科技</span></p>
+                        <div class="status">招聘中</div>
+                    </div>
+                    <div class="thing2 fr">
+                        <div class="reledata">发布112天：12简历-7人选-2面试-1offer-1入职</div>
+                    </div>
+                </div>
+                <div class="jobRequire">
+                    <p><span>岗位要求：</span><span class="descri">1)&nbsp;本科以上学历，3年以上java开发经验；2)&nbsp;有HRSaaS相关开发经验最佳；3)&nbsp;更多要求更多要求更多要求更多要求；4)&nbsp;更多要求更多要求更多要求更多要求;5)&nbsp;更多要求更多要求更多要求更多要求;</span>
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/getdata.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
